@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/img/ico.png" type="image/png"> 
+    <title>MemSlider</title>
 </head>
 <body>
-    
+    <header class="header">
+        <h1>CSS Mem Slider</h1>
+    </header>
+    <div class="wrapper">
+        <div class="slider" id="slider">
+            <input type="radio" name="buttons" id="radio1" checked>
+            <input type="radio" name="buttons" id="radio2">
+            <input type="radio" name="buttons" id="radio3">
+            <input type="radio" name="buttons" id="radio4">
+
+            <div class="slides">
+                <div class="slide slide_scrolling">
+                    <img src="./assets/img/mem1.jpg" alt="image_is_gone">
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/mem2.jpg" alt="image_is_gone">
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/mem3.jpg" alt="image_is_gone">
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/mem4.jpg" alt="image_is_gone">
+                </div>
+            </div>
+            <div class="nav">
+                <div class="title_box">
+                    <div class="sublitle scroll_text">About myself</div>
+                    <div class="sublitle">Врывается бухгалтерия</div>
+                    <div class="sublitle">Ноташа на удаленке</div>
+                    <div class="sublitle">The end...</div>
+                </div>
+                <div class="buttons_box">
+                    <label for="radio1" class="bar">
+                        <div class="dot"></div>
+                    </label>
+                    <label for="radio2" class="bar">
+                        <div class="dot"></div>
+                    </label>
+                    <label for="radio3" class="bar">
+                        <div class="dot"></div>
+                    </label>
+                    <label for="radio4" class="bar">
+                        <div class="dot"></div>
+                    </label>
+                </div>
+            </div>    
+        </div>
+
+    </div>
 </body>
 </html>
