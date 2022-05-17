@@ -55,8 +55,8 @@ input[name='buttons'] {
     transition: all .5s ease;
 }
 .slide img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 93%;
+    max-height: 93%;
     border-radius: 0.5vh;
 }
 
@@ -83,7 +83,7 @@ input[name='buttons'] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 .title_box {
@@ -170,7 +170,7 @@ input[name='buttons'] {
         padding: 0vh 2vh 3vh 2vh;
     }
     .slides{
-        margin-bottom: 2vh;
+        margin-bottom: 0vh;
 
     }
     .nav{
@@ -181,11 +181,11 @@ input[name='buttons'] {
         height: 1.5rem;
     }
     .sublitle{
-        font-size: 1.5vh;
+        font-size: 1.7vh;
     }
     .dot{
-        width: 0.9rem;
-        height: 0.9rem;
+        width: 0.7rem;
+        height: 0.7rem;
     }
     .buttons_box{
         gap: 0.8vh;
@@ -223,11 +223,11 @@ input[name='buttons'] {
         font-size: 1.3vh;
     }
     .buttons_box{
-        gap: 0.6vh;
+        gap: 0.5vh;
     }
     .dot{
-        width: 0.7rem;
-        height: 0.7rem;
+        width: 0.6rem;
+        height: 0.6rem;
     }
 }
 
