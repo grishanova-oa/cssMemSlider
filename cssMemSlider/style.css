@@ -17,7 +17,7 @@ body {
     padding: 5vh 0 0 0;
 }
 .wrapper {
-    max-width: 90vh;
+    max-width: 80vh;
     padding: 5vh 5vh;
     height: 90vh;
     margin: 0 auto;
@@ -37,7 +37,7 @@ input[name='buttons'] {
     border-radius: 1rem;
     box-shadow: black 0rem 0rem 1rem 0rem;
     border: 0.3rem solid white; 
-    height: 70vh;
+    height: 60vh;
     overflow: hidden;
 }
 .slides {
@@ -83,6 +83,8 @@ input[name='buttons'] {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 .title_box {
     display: flex;
@@ -154,16 +156,21 @@ input[name='buttons'] {
     transition: all .4s ease;
 
 }
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
     .wrapper{
-        max-width: 50vh;
+        max-width: 60vh;
+        height: 65vh;
     }
     .slide img {
         max-width: 90%;
         max-height: 90%;
     }
     .slider{
-        height: 60vh;
+        height: 55vh;
+        padding: 0vh 2vh 3vh 2vh;
+    }
+    .slides{
+        margin-bottom: 2vh;
 
     }
     .nav{
@@ -171,11 +178,56 @@ input[name='buttons'] {
     }
     .bar{
         width: 1.5rem;
-
+        height: 1.5rem;
     }
     .sublitle{
         font-size: 1.5vh;
-
+    }
+    .dot{
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+    .buttons_box{
+        gap: 0.8vh;
+    }
+}
+@media (max-width: 768px){
+    .header{
+        padding: 5vh 0 0 0;
+        font-size: 1.7vh;
+    }
+    .wrapper{
+        max-width: 45vh;
+        height: 55vh;
+        padding: 3vh 3vh;
+    }
+    .slide img {
+        max-width: 80%;
+        max-height: 80%;
+    }
+    .slider{
+        height: 45vh;
+        padding: 0vh 2vh 2vh 2vh;
+    }
+    .slides{
+        margin-bottom: 0vh;
+    }
+    .nav{
+        padding: 0vh 1vh;
+    }
+    .bar{
+        width: 1rem;
+        height: 1rem;
+    }
+    .sublitle{
+        font-size: 1.3vh;
+    }
+    .buttons_box{
+        gap: 0.6vh;
+    }
+    .dot{
+        width: 0.7rem;
+        height: 0.7rem;
     }
 }
 
